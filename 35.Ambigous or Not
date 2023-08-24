@@ -28,7 +28,7 @@ int main() {
     if (isAmbiguous(input, 0, strlen(input) - 1)) {
         printf("The grammar is ambiguous for the given input.\n");
     } else {
-        printf("The grammar is not ambiguous for the given input.\n");
+        printf("The grammar is un ambiguous for the given input.\n");
     }
 
     return 0;
